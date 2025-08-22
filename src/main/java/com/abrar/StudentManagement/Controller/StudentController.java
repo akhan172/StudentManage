@@ -18,7 +18,7 @@ import com.abrar.StudentManagement.Service.StudentService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/stud")
+@RequestMapping("/api/students")
 public class StudentController {
 	
 	@Autowired
